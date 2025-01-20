@@ -19,7 +19,7 @@ Make sure you have the following installed on your machine:
 Clone the project repository to your local machine:
 
 ```bash
-git clone https://your-repository-url.git
+git clone https://github.com/KevinNaserwan/hashmicro-submission
 cd your-project-directory
 ```
 

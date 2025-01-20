@@ -125,6 +125,14 @@
             background-color: white;
         }
 
+        .sticky-section {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: white;
+        }
+
+
         @media (max-width: 768px) {
             .social-circle {
                 width: 48px;
@@ -217,7 +225,7 @@
             </div>
         </div>
     </div>
-    <div class="flex flex-col lg:flex-row bg-white justify-center gap-7 items-center py-5 shadow-2xl">
+    <div class=" sticky-section flex flex-col lg:flex-row bg-white justify-center gap-7 items-center py-5 shadow-2xl">
 
         <div class="lg:flex hidden lg:flex-row flex-col justify-center gap-7 items-center lg:mb-0 mb-4">
             <div>
@@ -286,7 +294,7 @@
     </div>
     <div class="grid lg:grid-flow-row lg:grid-cols-3 gap-8 lg:p-10 py-10 justify-items-center">
         <div class="col-span-1">
-            <div class="lg:w-[500px] lg:h-[400px] w-[460px] h-[300px] lg:p-0 mx-10 shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
+            <div class="lg:w-[450px] lg:h-[400px] w-[460px] h-[300px] lg:p-0 mx-10 shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
                 style="background-image: url('/image/card-image.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                 <div
                     class=" border-4 border-black lg:w-[420px] lg:h-[200px] w-[360px] h-[180px] absolute left-1/2 -translate-x-1/2 bottom-5">
@@ -318,7 +326,7 @@
             </div>
         </div>
         <div class="col-span-1">
-            <div class="lg:w-[500px] lg:h-[400px] w-[460px] h-[300px]  shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
+            <div class="lg:w-[450px] lg:h-[400px] w-[460px] h-[300px]  shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
                 style="background-image: url('/image/card-image.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                 <div
                     class=" border-4 border-black lg:w-[420px] lg:h-[200px] w-[360px] h-[180px] absolute left-1/2 -translate-x-1/2 bottom-5">
@@ -350,7 +358,7 @@
             </div>
         </div>
         <div class="col-span-1">
-            <div class="lg:w-[500px] lg:h-[400px] w-[460px] h-[300px] shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
+            <div class="lg:w-[450px] lg:h-[400px] w-[460px] h-[300px] shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
                 style="background-image: url('/image/card-image.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                 <div
                     class=" border-4 border-black lg:w-[420px] lg:h-[200px] w-[360px] h-[180px] absolute left-1/2 -translate-x-1/2 bottom-5">
@@ -382,7 +390,7 @@
             </div>
         </div>
         <div class="col-span-1">
-            <div class="lg:w-[500px] lg:h-[400px] w-[460px] h-[300px] shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
+            <div class="lg:w-[450px] lg:h-[400px] w-[460px] h-[300px] shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
                 style="background-image: url('/image/card-image.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                 <div
                     class=" border-4 border-black lg:w-[420px] lg:h-[200px] w-[360px] h-[180px] absolute left-1/2 -translate-x-1/2 bottom-5">
@@ -414,7 +422,7 @@
             </div>
         </div>
         <div class="col-span-1">
-            <div class="lg:w-[500px] lg:h-[400px] w-[460px] h-[300px] shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
+            <div class="lg:w-[450px] lg:h-[400px] w-[460px] h-[300px] shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
                 style="background-image: url('/image/card-image.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                 <div
                     class=" border-4 border-black lg:w-[420px] lg:h-[200px] w-[360px] h-[180px] absolute left-1/2 -translate-x-1/2 bottom-5">
@@ -446,7 +454,7 @@
             </div>
         </div>
         <div class="col-span-1">
-            <div class="lg:w-[500px] lg:h-[400px] w-[460px] h-[300px] shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
+            <div class="lg:w-[450px] lg:h-[400px] w-[460px] h-[300px] shadow-lg hover:scale-105 transition-transform relative overflow-hidden"
                 style="background-image: url('/image/card-image.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                 <div
                     class=" border-4 border-black lg:w-[420px] lg:h-[200px] w-[360px] h-[180px] absolute left-1/2 -translate-x-1/2 bottom-5">
